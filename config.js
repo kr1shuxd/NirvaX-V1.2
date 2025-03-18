@@ -24,7 +24,7 @@ module.exports = {
             host: process.env.NODE_HOST || "new-york-node-1.vortexcloud.xyz",
             port: parseInt(process.env.NODE_PORT || "9465"),
             password: process.env.NODE_PASSWORD || "youshallnotpass",
-            secure: parseBoolean(process.env.NODE_SECURE || "false"),
+            secure: parseBoolean(process.env.NODE_SECURE || "true"),
         }
     ],
 };
